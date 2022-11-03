@@ -1,6 +1,8 @@
 pipeline{
     agent {
-        docker { image 'public.ecr.aws/docker/library/python:latest' }
+        docker { image 'public.ecr.aws/docker/library/python:latest'
+                 label 'android-aws'
+         }
     }
     stages {
         stage('Source') {
