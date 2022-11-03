@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages {
-        stage() {
+        stage('Powitanko) {
             steps{
                 echo "No elo mordzia"
             }
